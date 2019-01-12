@@ -1,0 +1,106 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.0",
+	"appid": "wx021113ff15689360",
+	"projectname": "makename",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 10,
+			"list": [
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "历史",
+					"pathName": "pages/history/history",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "详情",
+					"pathName": "pages/name/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "模板",
+					"pathName": "pages/issue/templa",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "模板后",
+					"pathName": "pages/issue/adds",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "悬赏页",
+					"pathName": "pages/issue/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "参与者页面",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "参与提交",
+					"pathName": "pages/name/apply",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "创建",
+					"pathName": "pages/issue/add",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "分享",
+					"pathName": "pages/issue/share",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "提现",
+					"pathName": "pages/withdraw/withdraw"
+				}
+			]
+		}
+	}
+}

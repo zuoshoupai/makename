@@ -1,0 +1,14 @@
+/* pages/issue/templa.wxss */
+.page__bd{padding:15px 0;}
+.page__bd .left{width:200rpx;} 
+.page__bd .left view{text-align:center;background-color:#fff;
+margin-bottom:2rpx;
+padding:15rpx;
+
+}
+.page__bd .left view.auto{border-bottom:1px solid #ababab;}
+.page__bd .right{padding-left:20rpx;box-sizing: border-box;width:100%;}
+.right .tem-list{}
+.right .tem-list .con{text-align:center;background-color:#fff;
+margin-bottom:2rpx;
+padding:15rpx;} 

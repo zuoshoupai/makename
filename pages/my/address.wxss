@@ -1,0 +1,11 @@
+/*pages/my/address.wxss*/
+.width70{width:140rpx;}
+.width500{width:500rpx;}
+.height100{height:100rpx;}
+.citypickers{position:fixed;height:100%;width:100%;min-height:100%;background-color:#ff0;}
+.citybody{position:fixed;bottom:0px;background-color:#fff;}
+.cityheader{position:absolute;top:0px;width:100%;z-index:5;}
+picker-view picker-view-column{margin-top:100rpx;}
+.city-cancel{float:left;margin:20rpx;color:#828282;}
+.city-true{float:right;margin:20rpx;color:#10FF10;}
+.section.picker{background-color:#fff;border-bottom:2px#ccccccsolid;border-top:2px#d9d9d9solid;padding:20rpx;}

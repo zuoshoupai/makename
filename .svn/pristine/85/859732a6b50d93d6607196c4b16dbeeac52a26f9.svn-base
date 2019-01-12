@@ -1,0 +1,3 @@
+/* pages/name/apply.wxss */ 
+
+.add-btn image{width:40rpx;height:40rpx;}

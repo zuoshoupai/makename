@@ -1,0 +1,118 @@
+/* pages/history/history.wxss */
+.head{ 
+background-color:#fff;
+font-size:28rpx; 
+}
+.button-list {
+display:flex;
+justify-content:space-around; 
+}
+.button-list text{width:168rpx; display:block;text-align:center; font-size:28rpx;  }
+.active{ color:#FF3C3C;position:relative;}
+.active:after{content:"";position:absolute;width:30rpx;height:4rpx;background-color:red;left:50%;margin-left:-15rpx;bottom:0;}
+
+
+.notice{
+    text-align:center;
+    display:flex;
+justify-content:center;
+align-items:center;
+margin-top:28rpx;
+
+}
+.notice .count{
+    color:#FF3C3C;
+    font-size:40rpx;
+
+}
+.content1 .list{
+    width:670rpx;
+    background-color:#fff;
+    margin:0 auto;
+    margin-top:20rpx;
+    border-radius:11rpx;
+    color:#999;
+    font-size:12px; 
+padding:20rpx;
+position:relative;
+
+}
+.content1 .list .title{
+    font-size:36rpx;
+color:#333;
+display:block;
+margin-bottom:2rpx;
+
+}
+
+.content1 .list .edit{
+    position:absolute;
+top:17rpx;
+right:20rpx;
+font-size:51rpx;
+color:#bbb;
+
+}
+.content1 .list .cash{
+   color:#FF3C3C;
+   /*
+border:1px solid #FF3C3C;
+padding:6rpx 20rpx;
+*/
+border-radius:44rpx;
+margin:5rpx 0;
+display:inline-block;
+
+}
+.content1 .list .widget{
+    margin-top:2rpx; 
+} 
+.list .award{
+width:630rpx; 
+background-color:#F5F5F5;
+margin-top:12rpx;
+padding:10rpx 20rpx; 
+ margin-bottom:20rpx;
+}
+.list .corner{
+    
+    position: absolute;
+    right: 0;
+    top: -14rpx;
+}
+.list .corner image{
+    width: 80rpx;
+    height: 80rpx;
+} 
+.list .head_img{
+    position:absolute;
+left:20rpx;
+top:20rpx;
+
+}
+.content1 .list .left-title{
+    margin-left:72rpx;
+}
+.left-title{
+    margin-left:72rpx;
+}
+.head_img image{
+ width:64rpx;
+height:64rpx;
+border-radius: 64rpx;
+
+}
+
+.load{
+    font-size:28rpx;
+color:#aaa;
+text-align:center;
+margin:30rpx;
+height:28rpx;
+
+}
+
+.head image{width:40rpx;height:40rpx;border-radius:150rpx}
+.h3 image{width:24rpx;height:18rpx;}
+.h2 image{width:82rpx;height:82rpx;}
+.r3{border-radius:144rpx;padding:12rpx;line-height:1;}

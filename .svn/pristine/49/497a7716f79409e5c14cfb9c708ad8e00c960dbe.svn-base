@@ -1,0 +1,7 @@
+<!--pages/issue/share.wxml--> 
+<view class="dialog" wx:if="{{showSharimg}}">
+        <view class="contents">
+            <image src="{{sharimg}}" class="luck-pic" wx:if="{{sharimg}}"></image>
+            <button class="apply-btn bg-r1 color-w" bindtap="saveImg">保存图片</button>
+        </view>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/issue/templa.wxml-->
+<view class="page"> 
+<view class="">
+	礼物商城
+</view>
+</view>

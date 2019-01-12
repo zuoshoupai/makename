@@ -1,0 +1,82 @@
+<!--pages/history/history.wxml--> 
+<view class="page">
+    <view class="head">
+        <view class="button-list">
+            <text  class="{{showType==1?'active':''}}" bindtap='showType' data-type="1">我发起的</text>
+            <text class="{{showType==2?'active':''}}" bindtap='showType' data-type="2">我参与的</text>
+        </view>
+        <view class="notice" wx:if="{{showType==1}}">
+            <text>发起：</text><text class="count">2</text><text>次</text>
+            <text>　　发放赏金：</text><text class="count">33</text><text>元</text>
+        </view>
+        <view class="notice" wx:if="{{showType==2}}">
+            <text>参与：</text><text class="count">22</text><text>次</text>
+            <text>　　达标：</text><text class="count">33</text><text>次</text>
+            <text>　　赏金：</text><text class="count">22</text><text>元</text>
+        </view>
+    </view>
+    <!--我发起的-->
+    <scroll-view scroll-y style="height: 880rpx;" wx:if="{{showType==1}}"  data-type="issue" bindscrolltolower="bottomFresh">
+        <view class="content1" >
+            
+            
+            <view class="list">
+                <h4>3月22日</h4>
+				<view class="line-g margin-t10 margin-b10"></view>
+				<view class="color-r1">赏金100元，已发放0元</view>
+				<view >征集公司名</view>
+				<view >最佳：待确认</view>
+				<view  class="flex  flex-space-between"><text>15天14小时33分后截止</text><text>15人参与</text></view>
+            </view> 
+			<view class="list">
+                <h4>3月22日</h4>
+				<view class="line-g margin-t10 margin-b10"></view>
+				<view class="color-r1">赏金100元，已发放0元</view>
+				<view >征集公司名</view>
+				<view >最佳：待确认</view>
+				<view  class="flex  flex-space-between"><text>15天14小时33分后截止</text><text>15人参与</text></view>
+            </view> 
+			<view class="list">
+                <h4>3月22日</h4>
+				<view class="line-g margin-t10 margin-b10"></view>
+				<view class="color-r1">赏金100元，已发放0元</view>
+				<view >征集公司名</view>
+				<view >最佳：待确认</view>
+				<view  class="flex  flex-space-between"><text>15天14小时33分后截止</text><text>15人参与</text></view>
+            </view> 
+            <view class="load" wx:if="{{load_issue}}">{{pageimsg}}</view>
+        </view>
+    </scroll-view>
+    <!--我参与的-->
+    <scroll-view scroll-y style="height: 890rpx;"  wx:if="{{showType==2}}" data-type="accept" bindscrolltolower="bottomFresh">
+        <view class="content1" >
+            <view class="list">
+                <h4>3月22日</h4>
+				<view class="line-g margin-t10 margin-b10"></view>
+				<view class="color-r1">赏金100元，已发放0元</view>
+				<view >征集公司名</view>
+				<view >最佳：待确认</view>
+				<view  class="flex  flex-space-between"><text>15天14小时33分后截止</text><text>15人参与</text></view>
+            </view> 
+			<view class="list">
+                <h4>3月22日</h4>
+				<view class="line-g margin-t10 margin-b10"></view>
+				<view class="color-r1">赏金100元，已发放0元</view>
+				<view >征集公司名</view>
+				<view >最佳：待确认</view>
+				<view  class="flex  flex-space-between"><text>15天14小时33分后截止</text><text>15人参与</text></view>
+            </view> 
+			<view class="list">
+                <h4>3月22日</h4>
+				<view class="line-g margin-t10 margin-b10"></view>
+				<view class="color-r1">赏金100元，已发放0元</view>
+				<view >征集公司名</view>
+				<view >最佳：待确认</view>
+				<view  class="flex  flex-space-between"><text>15天14小时33分后截止</text><text>15人参与</text></view>
+            </view>  
+             <view class="load" wx:if="{{load_issue}}">{{pageamsg}}</view>
+        </view>
+    </scroll-view>
+    <view class="far-bottom"></view> 
+</view> 
+

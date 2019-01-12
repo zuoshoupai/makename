@@ -1,0 +1,143 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.3",
+	"appid": "wxb1efe1746a60e2ff",
+	"projectname": "makename",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 16,
+			"list": [
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "历史",
+					"pathName": "pages/history/history",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "详情",
+					"pathName": "pages/name/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "模板",
+					"pathName": "pages/issue/templa",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "模板后",
+					"pathName": "pages/issue/adds",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "悬赏页",
+					"pathName": "pages/issue/index",
+					"query": ""
+				},
+				{
+					"id": 6,
+					"name": "参与者页面",
+					"pathName": "pages/index/index",
+					"query": "item_id=2"
+				},
+				{
+					"id": 7,
+					"name": "参与提交",
+					"pathName": "pages/name/apply",
+					"query": "item_id=2"
+				},
+				{
+					"id": -1,
+					"name": "创建",
+					"pathName": "pages/issue/add",
+					"query": ""
+				},
+				{
+					"id": 9,
+					"name": "分享",
+					"pathName": "pages/issue/share",
+					"query": "item_id=2"
+				},
+				{
+					"id": -1,
+					"name": "提现",
+					"pathName": "pages/withdraw/withdraw",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "授权",
+					"pathName": "pages/authorize/index",
+					"query": ""
+				},
+				{
+					"id": 12,
+					"name": "发布人查看",
+					"pathName": "pages/issue/index",
+					"query": "item_id=2"
+				},
+				{
+					"id": -1,
+					"name": "我的地址",
+					"pathName": "pages/my/myaddress",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "兑换记录",
+					"pathName": "pages/my/mygift",
+					"query": ""
+				},
+				{
+					"id": 15,
+					"name": "商城",
+					"pathName": "pages/mall/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "金豆记录",
+					"pathName": "pages/mall/bean",
+					"query": ""
+				}
+			]
+		}
+	}
+}

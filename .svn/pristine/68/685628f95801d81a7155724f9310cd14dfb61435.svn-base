@@ -1,0 +1,20 @@
+<!--pages/issue/templa.wxml-->
+<view class="page"> 
+<view class="page__bd flex">
+	<view class="left">  
+		<view wx:for="{{tem_arr}}" wx:key="uneque" wx:for-index="ids" wx:for-item="item" data-id="{{ids}}"  bindtap="select_nav">
+			{{item.name}}
+		</view> 
+		<view class="auto">自定义</view>
+	</view>
+	<view class="right">
+		<block wx:for="{{tem_arr[tem_now].child}}" wx:key="uneque" wx:for-index="ids" wx:for-item="item">
+			<view class="tem-list" >
+				<view class="con" data-id="{{item.id}}" data-name="{{item.name}}" bindtap="func_sub">
+				{{item.name}}
+				</view> 
+			</view>
+		</block> 
+	</view> 
+</view>
+</view>

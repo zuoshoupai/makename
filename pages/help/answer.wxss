@@ -1,0 +1,18 @@
+/* pages/article/article.wxss */
+page{
+    background-color: #fff; 
+}
+.page{
+    padding:20rpx;
+
+}
+view{
+    font-size:37rpx;
+}
+button{
+    position:absolute;
+    bottom:0;
+    width:750rpx;
+    color:red;
+
+}

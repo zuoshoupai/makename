@@ -1,0 +1,64 @@
+// pages/issue/add.js
+var app = getApp();
+Page({
+
+  /**
+   * 页面的初始数据
+   */
+  data: {
+    date: "2016-09-01",
+	name_now:null
+  },
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+    if(app.globalData.name_now){
+		this.setData({
+			name_now:app.globalData.name_now 
+		}) 
+	}
+  },
+
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
+
+  },
+
+  
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+
+  },
+  bindDateChange: function (e) {
+    this.setData({
+      date: e.detail.value
+    })
+  },
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+
+  },
+  goto_tem:function(){ 
+	app.urlTo('../issue/templa');
+	return;
+  },
+  goto_good:function(){ 
+	app.urlTo('../issue/good');
+	return;
+  }
+})

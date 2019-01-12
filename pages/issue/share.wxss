@@ -1,0 +1,6 @@
+/* pages/issue/share.wxss */
+.head image{width:40rpx;height:40rpx;border-radius:150rpx}
+ 
+.h2 image{width:82rpx;height:82rpx;}
+.bottom130{bottom:130rpx;}
+.height280{height:280rpx;}

@@ -1,0 +1,7 @@
+/* pages/issue/index.wxss */
+.advartor image{width:140rpx;height:140rpx;}
+.list .top .l image{width:100rpx;height:100rpx;}
+.list .medal{width:80rpx;height:80rpx;top:20rpx;right:20rpx;}
+.list .bottom{border-top:1rpx solid #f1f1f1;}
+.list .bottom view{width:33.3333%}
+.list .bottom view.c{border-left:1rpx solid #f1f1f1;border-right:1rpx solid #f1f1f1;}

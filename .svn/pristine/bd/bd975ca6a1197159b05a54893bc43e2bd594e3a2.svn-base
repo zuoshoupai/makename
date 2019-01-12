@@ -1,0 +1,52 @@
+<!--pages/issue/add.wxml-->
+<view class="page"> 
+<view class="page__bd">
+	<view class="bg-r1 padding-t60 padding-b130 position-r color-w">
+        <view class="text-c font30"><h4 >帮我取名</h4></view>
+		<view class="padding-l65 padding-t70">
+			<view class="font26">美好的未来</view>
+			<view class="font24">从取一个好名字开始</view>
+			<view class="font20">挑选礼物-发布需求-邀请好友-挑选名字</view>
+		</view> 
+    </view>
+	<view class="bg-w margin-l30 margin-r30 side35 flex flex-align-center padding-t40 padding-b40 border-radius10 position-r tops100" bindtap="goto_good">
+		<view class="flex flex-align-center c2">
+			<image src="../../images/gift.png" />
+			<view class="margin-l15">
+				<view class="color-r2">悬赏礼物</view>
+				<view class="color6">礼物用于悬赏帮你取得满意名字的人</view>
+			</view>
+		</view>
+		<view>></view>
+    </view>
+</view>
+<view class="page__bd position-r tops80">
+	<view class="side30">
+		<view class="weui-cell  bg-w z-input">
+		  <input class="weui-cell_input width100"  value="{{name_now.name}}" placeholder="请输入标题" />
+		  <view class="select-tem position-a right10" catchtap='goto_tem'>选择模板></view>
+		</view>
+		<view class="margin-t25 bg-w side20 padding-b20 padding-t20">
+			<textarea class="z-input width100" placeholder="请输入要求" value="{{name_now.requirment}}">
+			 
+			</textarea>
+		</view>
+		<view class="padding-t20 padding-b20 side30 bg-w margin-t25 "> 
+          <view class="weui-cell__bd">
+              <picker mode="date" placeholder="请输入截止时间"  value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+                  <view class="width100 z-input">{{date}}</view>
+              </picker>
+          </view>
+      </view>
+	</view>
+     
+    <view class="margin-t25"></view> 
+</view><!--主体-->
+<view class="h120"></view> 
+<view class="page__bd page__bd_spacing">
+   <button class="weui-btn bg-r1" type="warn">发布需求</button>
+   <view class="flex flex-cente color-g margin-t15">
+		<text class="padding-r10">使用说明</text>|<button open-type="contact"   class="padding-l10 clear-btn">联系客服</button>
+	</view>  
+</view>
+</view>

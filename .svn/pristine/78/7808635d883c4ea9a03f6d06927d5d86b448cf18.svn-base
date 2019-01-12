@@ -1,0 +1,12 @@
+/**index.wxss**/
+.advartor image{width:140rpx;height:140rpx;}
+.list .top .l image{width:100rpx;height:100rpx;}
+.list .medal{width:80rpx;height:80rpx;top:20rpx;right:20rpx;}
+.list .bottom{border-top:1rpx solid #f1f1f1;}
+.list .bottom  .award{width:240rpx;
+border:1px solid #cb503d;
+background-color:unset;
+color:#cb503d;
+padding:4rpx 15px;
+line-height:1.8;
+}

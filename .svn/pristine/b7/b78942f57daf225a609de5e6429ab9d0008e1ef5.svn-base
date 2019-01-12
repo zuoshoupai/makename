@@ -1,0 +1,50 @@
+<!--pages/my/my.wxml-->
+<view class="page">
+	<view class="top flex   flex-align-center flex-space-between bg-w side75 padding-b35 padding-t35 color-g">
+		<view class="advartor flex   flex-align-center">
+			<image src="{{member_info.headurl}}"/>
+			<text class="margin-l20 font-size28">{{member_info.name}}</text>
+		</view>
+		<view class="font-size25" bindtap="goto_address">收货地址></view>
+	</view>
+
+	<view class="flex   flex-align-center flex-space-between bg-w side55 padding-b20 padding-t20 margin-t30">
+		<view class="icon flex   flex-align-center">
+			<image src="../../images/bean.png"/>
+			<text class="margin-l30  color-r1">1000个</text>
+		</view>
+		<view><button class="red-btn color-w bg-r1">赚取金豆</button></view>
+	</view>
+	
+	<view class="flex   flex-align-center flex-space-between bg-w side55 padding-b20 padding-t20 margin-t30">
+		<view class="icon flex   flex-align-center">
+			<image src="../../images/house.png"/>
+			<text class="margin-l30  ">金豆商城</text>
+		</view>
+		<view>></view>
+	</view>
+	<view class="flex   flex-align-center flex-space-between bg-w side55 padding-b20 padding-t20 margin-t2">
+		<view class="icon flex   flex-align-center">
+			<image src="../../images/gift-big.png"/>
+			<text class="margin-l30  ">我的礼物</text>
+		</view>
+		<view>></view>
+	</view>
+	
+	<view class="flex   flex-align-center flex-space-between bg-w side55 padding-b20 padding-t20 margin-t30">
+		<view class="icon flex   flex-align-center">
+			<image src="../../images/ask.png"/>
+			<text class="margin-l30  ">帮助中心</text>
+		</view>
+		<view>></view>
+	</view>
+	<view class="flex   flex-align-center flex-space-between bg-w side55 padding-b20 padding-t20 margin-t2">
+		<view class="icon flex   flex-align-center">
+			<image src="../../images/list.png"/>
+			<text class="margin-l30  ">服务协议</text>
+		</view>
+		<view>></view>
+	</view>
+	
+	 
+</view>

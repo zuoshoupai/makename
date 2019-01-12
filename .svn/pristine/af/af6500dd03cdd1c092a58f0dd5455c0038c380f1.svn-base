@@ -1,0 +1,40 @@
+<!--pages/issue/templa.wxml-->
+<view class="page"> 
+	<view class="head bg-r padding-t60 padding-b50 color-w side30">
+		<text class="padding-l30 font30">服务流程</text>
+		<view class="icon-list flex flex-space-around margin-t40 font20">
+			<view class="list flex flex-column flex-align-center">
+				<image src="../../images/log-03.png"></image>
+				<view class="margin-t15">选择商品</view>
+				<view>并付款</view>
+			</view>
+			<view class="list flex flex-column flex-align-center">
+				<image src="../../images/log-04.png"></image>
+				<view class="margin-t15">邀请好友</view>
+				<view>参与</view>
+			</view>
+			<view class="list flex flex-column flex-align-center">
+				<image src="../../images/log-09.png"></image>
+				<view class="margin-t15">中奖者</view>
+				<view>填写地址</view>
+			</view>
+			<view class="list flex flex-column flex-align-center">
+				<image src="../../images/log-05.png"></image>
+				<view class="margin-t15">七日内奖品</view>
+				<view>包邮发出</view>
+			</view>
+		</view> 
+	</view>
+	<view class="mid margin-t30 side30">
+		<view class="good-list flex flex-space-between flex-wrap font20">
+			<block wx:for="{{good_arr}}" wx:key="uneque" wx:for-index="ids" wx:for-item="item">
+			<view class="list bg-w flex flex-column padding-b20 padding-t15 side15 margin-b30" data-id="{{item.id}}" data-name="{{item.name}}"  bindtap="select_good">
+				<image src="{{item.pic}}"></image>
+				<view class="margin-t15">{{item.name}}</view>
+				<view class="color-r1">￥{{item.price}}</view>
+			</view>
+			</block>
+			 
+		</view>
+	</view>
+</view>

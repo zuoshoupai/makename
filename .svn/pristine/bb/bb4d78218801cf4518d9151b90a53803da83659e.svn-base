@@ -1,0 +1,43 @@
+<!--pages/issue/share.wxml--> 
+<view class="page"> 
+<view class="page__bd">
+    <view class="bg-o padding-t55 padding-b10 position-r">
+        <view class="advartor flex flex-column flex-align-center">
+			<image src="../../images/head.png"/>
+			<text class="color-w">宝妈</text>
+			<text class="color-r1 bg-w font40 side20">悬赏10元</text>
+			<text class="font50">宝宝名字征集</text>
+		</view> 
+    </view>
+	<view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+            <view>
+				<text>选定名字,</text><text class="color-r1 margin-r20">分得8元</text><text>参与奖励 </text><text class="color-r1 side20">10</text><text>份，共2元</text>
+			</view>
+		</view>
+    </view>
+    <view class="margin-t25"></view>
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+          <view class="padding-t15">
+			<view>取名要求：</view>
+			<view>姓杜，母亲姓罗孩子大概 今年8月底9月初出生，请大家帮忙取个名字。名子需要包含X字，好记，谢谢大家。</view>
+		  </view>
+		</view>
+		<view class="weui-cell">
+           <text>截止时间</text><text class="color-g margin-l20">5月31日 10:00</text>
+		</view>
+		<view class="weui-cell">
+           <view><text>最佳名字：独得8元</text><text>合格作品：平分2元</text></view>
+		</view>
+		<view class="weui-cell">
+		   <view class="color-r1">如果没支付，则不显示分配规则</view>
+		</view>
+	</view> 
+	<view class="page__bd_spacing">
+		<button class="weui-btn" type="warn">转发给好友或微信群</button>
+		<button class="weui-btn" type="warn">生成朋友圈分享图</button> 
+	</view>  
+</view>
+</view>
+

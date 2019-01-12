@@ -1,0 +1,77 @@
+<!--pages/history/history.wxml--> 
+<view class="page">
+    <view class="head">
+        <view class="button-list ">
+            <text  class="{{showType==1?'active':''}} padding-t20 padding-b20" bindtap='showType' data-type="1">我发起的</text>
+            <text class="{{showType==2?'active':''}} padding-t20 padding-b20" bindtap='showType' data-type="2">我参与的</text>
+        </view> 
+    </view>
+    <!--我发起的-->
+    <scroll-view scroll-y style="height: 880rpx;" wx:if="{{showType==1}}"  data-type="issue" bindscrolltolower="bottomFresh">
+        <view class="content1" >
+			<block wx:for="{{list.issue}}" wx:key="uneque" wx:for-index="ids" wx:for-item="item">
+            <navigator url="../issue/index?item_id={{item.item_id}}" open-type="navigate">
+				<view class="bg-w color6 font30 side30 padding-t30 padding-b20">
+					<view class="flex flex-align-center flex-space-between">
+						<view class="head flex flex-align-center">
+							<image src="{{item.user_info.headurl}}"></image>
+							<text class="margin-l10 font22 color-g">{{item.user_info.name}} · {{item.cctime}}</text>
+						</view>
+						<text class="">{{item.cancel?'已超时退款':''}}</text>
+					</view>
+					<view class="font25 margin-t30 margin-b25">
+						{{item.require}}
+					</view> 
+					<view class="l1 margin-t35 margin-b15"></view>
+					<view class="flex flex-space-between flex-align-center">
+						<view class="h3 flex flex-align-center">
+							<image src="../../images/eye.png"></image><text class="margin-l5 margin-r25">{{item.read_count}}</text>
+							<image src="../../images/apply.png"></image><text class="margin-l5 margin-r25">{{item.apply_count}}</text>
+						</view>
+						<view class=" flex flex-align-center">
+							<text class="">{{item.good_info.name}}</text>
+							<view class="r3 bg-r1 font25 color-w margin-l10">赏</view>
+						</view>
+					</view>
+				</view>
+			</navigator>
+			</block>
+            <view class="load" wx:if="{{load_issue}}">{{pageimsg}}</view>
+        </view>
+    </scroll-view>
+    <!--我参与的-->
+    <scroll-view scroll-y style="height: 890rpx;"  wx:if="{{showType==2}}" data-type="accept" bindscrolltolower="bottomFresh">
+        <view class="content1" >
+			<block wx:for="{{list.apply}}" wx:key="uneque" wx:for-index="ids" wx:for-item="item">
+		   <navigator url="../index/index?item_id={{item.item_id}}" open-type="navigate">
+				<view class="bg-w color6 font30 side30 padding-t30 padding-b20">
+					<view class="flex flex-align-center flex-space-between">
+						<view class="head flex flex-align-center">
+							<image src="{{item.user_info.headurl}}"></image>
+							<text class="margin-l10 font22 color-g">{{item.user_info.name}} · {{item.cctime}}</text>
+						</view>
+						<text class="color-r1">{{item.cancel?'已超时退款':''}}</text>
+					</view>
+					<view class="font25 margin-t30 margin-b25">
+						{{item.require}}
+					</view> 
+					<view class="l1 margin-t35 margin-b15"></view>
+					<view class="flex flex-space-between flex-align-center">
+						<view class="h3 flex flex-align-center">
+							<image src="../../images/eye.png"></image><text class="margin-l5 margin-r25">{{item.read_count}}</text>
+							<image src="../../images/apply.png"></image><text class="margin-l5 margin-r25">{{item.apply_count}}</text>
+						</view>
+						<view class=" flex flex-align-center">
+							<text class="">{{item.good_info.name}}</text>
+							<view class="r3 bg-r1 font25 color-w margin-l10">赏</view>
+						</view>
+					</view>
+				</view>
+			</navigator>
+			</block>
+             <view class="load" wx:if="{{load_issue}}">{{pageamsg}}</view>
+        </view>
+    </scroll-view>
+    <view class="far-bottom"></view> 
+</view> 
+

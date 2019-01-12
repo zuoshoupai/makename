@@ -1,0 +1,22 @@
+<!--pages/article/article.wxml-->
+<import src="../../template/foot_template.wxml"/>
+<view class="page">
+    <block wx:for="{{list}}" wx:key="uneque"  wx:for-index="ids" wx:for-item="item">
+    <view class="list" >
+        <view class="ask"   bindtap="toogleshow" data-id="{{ids}}">
+            <text data-id="{{ids}}" catchtap="toogleshow">{{(ids*1+1)+'、'}}{{item.ask}}</text>
+            <i class="iconfont icon-shouqi" wx:if="{{item.show}}"  data-id="{{ids}}" catchtap="toogleshow"></i>
+            <i class="iconfont icon-zhankai" wx:if="{{!item.show}}" data-id="{{ids}}" catchtap="toogleshow"></i>
+        </view>
+        <view class="answer" wx:if="{{!item.show}}">
+            {{item.answer}}
+        </view>
+
+    </view>
+
+    </block>
+     <button open-type="contact" class="contact"><i class="iconfont icon-kefu"></i></button>
+       <view class="far-bottom"></view>
+    <template is="foot-template" data="{{nav_active}}"></template>
+</view>
+

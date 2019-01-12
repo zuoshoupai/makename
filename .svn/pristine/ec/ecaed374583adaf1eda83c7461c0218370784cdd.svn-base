@@ -1,0 +1,38 @@
+<!--pages/name/apply.wxml--> 
+<view class="page"> 
+<form bindsubmit="formSubmit" report-submit>
+	<view class="page__bd">
+		<view class="side30">
+		<block wx:for="{{count_item}}" wx:key="uneque" wx:for-index="ids" wx:for-item="item">
+			<view class="weui-cell  bg-w z-input margin-t30">
+			  <input class="weui-cell_input width100" placeholder="请输入名字" name="title[{{item}}]" /> 
+			</view>
+			<view class="margin-t30 bg-w side20 padding-b20 padding-t20">
+				<textarea class="z-input width100" placeholder="请输入名字说明(可选填)" name="desc[{{item}}]">
+				 
+				</textarea>
+			</view> 
+		</block>
+			<view class="bg-w add-btn margin-t30 padding-b30 padding-t30 flex flex-align-center" bindtap="add_item">  
+				<image src="../../images/log-11.png" class="margin-l40"></image><text class="margin-l20">再起一个</text>
+			</view>
+		
+		</view> 
+		
+	</view>
+	<view class="padding-l65 margin-t55">
+		<view class="rule margin-t40 font25 color-g">
+			<view class="title margin-b20">起名规则</view>
+			<view class="con">
+				<view>1.请按要求取名，不得发布违法信息；</view>			<view>2.最佳名字将在截止时间后24小时公布；</view>
+				<view>3.如果24小时内不选择最佳名字，赏金将由参与者平分；</view>
+				<view>4.如字出现重复或疑似现象，以最先提交者为准。</view>
+			</view> 
+		</view>
+	</view>
+	<view class="h120"></view>
+	<view class=""> 
+	   <button class="bg-r1 color-w apply-btn" form-type="submit">提交</button> 
+    </view> 
+</form>	
+</view>

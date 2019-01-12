@@ -1,0 +1,134 @@
+<!--pages/issue/index.wxml-->
+<view class="page"> 
+<view class="page__bd">
+    <view class="bg-o padding-t55 padding-b10 position-r">
+        <view class="advartor flex flex-column flex-align-center">
+			<image src="../../images/head.png"/>
+			<text class="color-w">宝妈</text>
+			<text class="color-r1 bg-w font40 side20">悬赏10元</text>
+			<text class="font50">宝宝名字征集</text>
+		</view> 
+    </view>
+	<view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+          <view class="weui-cell__hd">
+              <view class="weui-label">标题</view>
+          </view>
+          <view class="weui-cell__bd height258">
+              <input class="weui-input" placeholder="征集宝宝名字"/> 
+          </view>
+		</view>
+    </view>
+    <view class="margin-t25"></view>
+	 <view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+          <view class="padding-t15">
+			<p>取名要求：</p>
+			<view>姓杜，母亲姓罗孩子大概 今年8月底9月初出生，请大家帮忙取个名字。名子需要包含X字，好记，谢谢大家。</view>
+		  </view>
+		</view>
+		<view class="weui-cell">
+           <text>截止时间</text><text class="color-g margin-l20">5月31日 10:00</text>
+		</view>
+	</view>
+	<view class="margin-t15"></view>
+    <view class="c1 flex flex-space-around margin-b15">
+		<view><i class="iconfont icon-edit"></i><text>再发一个</text></view>
+		<view><i class="iconfont icon-xunhuan1"></i><text>找人帮忙</text></view>
+		<view><i class="iconfont icon-meiyuan8"></i><text>追加赏金</text></view>
+	</view>
+    
+</view><!--主体-->
+<view class="page__bd">
+    <view class="weui-cells weui-cells_after-title"> 
+		<view class="weui-cell">
+           <text>赏金分配</text><text class="color-r">（待托管）</text>
+        </view>
+        <view class="weui-cell">
+          <view class="weui-cell__hd">
+              <view class="weui-label">最佳名字</view>
+          </view>
+          <view class="weui-cell__bd height258">
+            <text>独得80%赏金，8元</text>
+          </view>
+        </view>
+		<view class="weui-cell">
+          <view class="weui-cell__hd">
+              <view class="weui-label">内容合格</view>
+          </view>
+          <view class="weui-cell__bd height258">
+            <text>平分20赏金，2元</text>
+          </view>
+        </view>
+	</view>
+	<view class="page__bd_spacing bg-w margin-t15 padding-b10 padding-t10">
+		35人，提交了56个名字
+	</view>
+	<view class="page__bd_spacing margin-t15">
+		<view class="list position-r bg-w padding-t15  margin-b20">
+			<view class="top flex">
+				<view class="l margin-r30"><image src="../../images/head.png"/></view>
+				<view class="r font30">
+					<view class="l1">
+						<text class=" font20">魅力夕阳红丽霞</text>
+						<text class="color-g font25">2天前</text>  
+					</view>
+					<view class="margin-t15 margin-b15">
+						<text>杜小罗：包含父亲和母亲姓</text> 
+					</view>
+					<view class="l3">
+						<text>杜小兵（重复）：包含父亲和母亲姓</text> 
+					</view>
+				</view>
+			</view>
+			<view class="bottom flex flex-space-around margin-t20 text-c">
+				<view>中标</view><view class="c">合格</view><view>举报</view>
+			</view>
+			<image class="medal position-a" src="../../images/medal.png"/>
+		</view>
+		<view class="list position-r bg-w padding-t15  margin-b20">
+			<view class="top flex">
+				<view class="l margin-r30"><image src="../../images/head.png"/></view>
+				<view class="r font30">
+					<view class="l1">
+						<text class=" font20">魅力夕阳红丽霞</text>
+						<text class="color-g font25">2天前</text>  
+					</view>
+					<view class="margin-t15 margin-b15">
+						<text>杜小罗：包含父亲和母亲姓</text> 
+					</view>
+					<view class="l3">
+						<text>杜小兵（重复）：包含父亲和母亲姓</text> 
+					</view>
+				</view>
+			</view>
+			<view class="bottom flex flex-space-around margin-t20 text-c">
+				<view>中标</view><view class="c">合格</view><view>举报</view>
+			</view>
+			<image class="medal position-a" src="../../images/medal.png"/>
+		</view>
+		<view class="list position-r bg-w padding-t15 margin-b20">
+			<view class="top flex">
+				<view class="l margin-r30"><image src="../../images/head.png"/></view>
+				<view class="r font30">
+					<view class="l1">
+						<text class=" font20">魅力夕阳红丽霞</text>
+						<text class="color-g font25">2天前</text>  
+					</view>
+					<view class="margin-t15 margin-b15">
+						<text>杜小罗：包含父亲和母亲姓</text> 
+					</view>
+					<view class="l3">
+						<text>杜小兵（重复）：包含父亲和母亲姓</text> 
+					</view>
+				</view>
+			</view>
+			<view class="bottom flex flex-space-around margin-t20 text-c">
+				<view>中标</view><view class="c">合格</view><view>举报</view>
+			</view>
+			<image class="medal position-a" src="../../images/medal.png"/>
+		</view>
+	</view>
+</view> 
+</view>
+

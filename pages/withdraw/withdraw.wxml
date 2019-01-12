@@ -1,0 +1,33 @@
+<!--pages/withdraw/withdraw.wxml--> 
+<view class="page">
+    <form bindsubmit="formSubmit"  >
+        <view class="head">
+            <text class="normal">帐户余额(元)</text>
+            <text class="remain">{{info.total}}</text>
+            <text class="normal">提现金额(元)</text>
+
+            <input value="{{truecash}}" name="cash" />
+            <view class="normal1">
+                <text>提现到微信钱包　</text>
+                <text class="color-blue" bindtap="allcashFunc">全部提现</text>
+            </view>
+            <button   form-type="submit" class="button-withdraw"> 提现</button>
+            <view class="head-bottom">
+                <text class="normal" decode="{{true}}">1-5个工作日到帐&nbsp;&nbsp;｜&nbsp;&nbsp;</text>
+                <i class="iconfont icon-kefu"></i>
+                <button open-type="contact" class="contact">在线客服</button>
+            </view>
+        </view>
+    </form>
+    <view class="history">
+       <scroll-view scroll-y style="height:600rpx">
+            <block wx:for="{{info.history}}" wx:key="uneque"  wx:for-index="ids" wx:for-item="item">
+                <view class="list">
+                    <text>{{item.msg}}</text>
+                    <text>{{item.create_time}}</text>
+                </view>
+            </block>
+        </scroll-view>
+    </view>
+    <view class="far-bottom"></view> 
+</view>

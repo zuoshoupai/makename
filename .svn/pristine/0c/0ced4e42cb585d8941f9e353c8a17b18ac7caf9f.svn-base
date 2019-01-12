@@ -1,0 +1,44 @@
+{
+  "pages":[ 
+    "pages/issue/add",
+    "pages/issue/templa", 
+    "pages/issue/index", 
+    "pages/issue/share", 
+    "pages/name/index", 
+    "pages/name/apply", 
+    "pages/history/history",
+    "pages/my/my",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor":"#ffffff",
+    "color":"#000000",
+    "selectedColor":"#6a65ff",
+    "list": [
+      {
+        "pagePath": "pages/issue/add",
+        "text": "我要起名",
+        "iconPath":"images/add.png",
+        "selectedIconPath": "images/add1.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "images/history.png",
+        "selectedIconPath": "images/history1.png"
+      },
+	  {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my1.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+/* pages/issue/index.wxss */
+.head image{width:40rpx;height:40rpx;border-radius:150rpx}
+ 
+.h2 image{width:82rpx;height:82rpx;}
+.b2{border-left:1rpx solid #F8F8F8;
+border-right:1px solid #F8F8F8}
+.t2 view{width:33.3333%;padding-bottom:20rpx; padding-top:20rpx;}

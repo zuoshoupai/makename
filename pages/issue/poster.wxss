@@ -1,0 +1,19 @@
+/* pages/issue/share.wxss */
+ 
+.dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 100;
+}
+
+.dialog image.luck-pic {
+    width:450rpx;
+    height:800rpx;
+    margin:150rpx 0 0 150rpx;
+
+}
+ 

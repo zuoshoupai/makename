@@ -1,0 +1,15 @@
+<!--pages/article/article.wxml-->
+<view class="page">
+    <view >
+        Dear Bob,
+    </view>
+    <view>　　I apologize to you that we  can not  visit the bookstore together this Sunday.The activity should be put off. The reasons are as follows.
+    </view>
+    <view> 
+    　　First of all, with a vital important exam approaching, there won’t be enough time left for me to go with you.What’s more, the weather forcast  says that it will rain this Sunday so that I don’t think[b5]  the weather is suitable for us to go out. Last but no  least, the busy schedule this week also makes me tired. On account of above reasons, as far as I am concerned, it will be a good option for us to put off this activity.
+    </view>
+    <view> 
+    　　In my opinion, next Sunday will be a good time to visit the bookstore. Looking forward to your early reply.
+    </view>
+</view>
+    <button bindtap='showmsg'>收藏</button>

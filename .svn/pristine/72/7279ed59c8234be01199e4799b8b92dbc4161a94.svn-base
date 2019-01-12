@@ -1,0 +1,126 @@
+<!--pages/index/index.wxml-->
+<view class="page"> 
+	<view class="page_bd">
+		<view class="text-c color-r1 font30 padding-b10 padding-t10">剩时：{{item_info.ddtime}}</view>
+		<view class="bg-w font30 side30 padding-t30 padding-b20">
+			<view class="head flex flex-align-center">
+				<image src="{{item_info.user_info.headurl}}"></image>
+				<text class="margin-l10 font22 color-g">{{item_info.user_info.name}} · {{item_info.cctime}}</text>
+			</view>
+			<view class="font25 margin-t30 margin-b25">
+				{{item_info.title}}
+			</view>
+			<view class="color-g font22">
+				{{item_info.require}}
+			</view>
+			<view class="l1 margin-t35 margin-b15"></view>
+			<view class="h3 flex flex-align-center">
+				<image src="../../images/my.png"></image><text class="margin-l5 margin-r25">{{item_info.read_count}}</text>
+				<image src="../../images/my.png"></image><text class="margin-l5 margin-r25">{{item_info.apply_count}}</text>
+			</view>
+		</view>
+		<view class="bg-w font30 side30 padding-t30 padding-b30 margin-t30">
+			<view class="font30">悬赏礼品</view>
+			<view class="l1 margin-t10"></view>
+			<view class="flex flex-align-center flex-space-between padding-t30">
+				<view class="h2 flex flex-align-center">
+					<image src="../../images/gift1.png"></image>
+					<text class="margin-l30 margin-r25">{{item_info.good_info.name}}</text>
+				</view>
+				<text class="margin-r15 color-r1">￥{{item_info.good_info.price}}</text>
+			</view>
+		</view>
+		<view class="bg-w font30 side30 padding-t30 padding-b30 margin-t30">
+			<view class="font30 flex flex-align-center flex-space-between">
+				<text>悬赏分配</text>
+				<text class="font25 color-r1">悬赏分配规则></text>
+			</view>
+			<view class="l1 margin-t10"></view>
+			<view class="flex flex-align-center flex-space-between padding-t30">
+				<view class="h2 flex flex-align-center">
+					<image src="../../images/gift1.png"></image>
+					<text class="margin-l30 margin-r25">最佳名字</text>
+				</view>
+				<text class="margin-r15 color-r1">礼品价值*80%</text>
+			</view>
+			<view class="l1 margin-t35"></view>
+			<view class="flex flex-align-center flex-space-between padding-t30">
+				<view class="h2 flex flex-align-center">
+					<image src="../../images/gift1.png"></image>
+					<text class="margin-l30 margin-r25">入围名字</text>
+				</view>
+				<text class="margin-r15 color-r1">平均礼品价值*20%</text>
+			</view>
+		</view>
+		<view class="bg-w font30 side30 padding-t30 padding-b30 margin-t30">
+			<view class="font30 flex flex-align-center flex-start ">
+				<text>中奖者名单(多人)</text>
+			</view>
+			<view class="l1 margin-t10"></view>
+			<view class="flex flex-align-center flex-space-between padding-t30 color6">
+				<view class="h2 flex flex-align-center">
+					<image src="../../images/gift1.png"></image>
+					<view class="margin-l30 margin-r25 font25 flex flex-column flex-center flex-align-center">
+						<text class="color-g">徐璟璟儿</text>
+						<text class="margin-t10">最佳名字</text>
+					</view>
+				</view>
+				<text class="margin-r15">400金豆</text>
+			</view>
+			<view class="l1 margin-t35"></view>
+			<view class="flex flex-align-center flex-space-between padding-t30 color6">
+				<view class="h2 flex flex-align-center">
+					<image src="../../images/gift1.png"></image>
+					<view class="margin-l30 margin-r25 font25 flex flex-column flex-center flex-align-center">
+						<text class="color-g">徐璟璟儿</text>
+						<text class=" ">最佳名字</text>
+					</view>
+				</view>
+				<text class="margin-r15">400金豆</text>
+			</view>
+		</view>
+		<view class="bg-w font30 side30 padding-t30 padding-b30 margin-t30">
+			<view class="font30 flex flex-align-center flex-start ">
+				<text>中奖者名单(1人)</text>
+			</view>
+			<view class="l1 margin-t10"></view>
+			<view class="flex flex-align-center flex-space-between padding-t30 color6">
+				<view class="h2 flex flex-align-center">
+					<image src="../../images/gift1.png"></image>
+					<view class="margin-l30 margin-r25 font25 flex flex-column flex-center flex-align-center">
+						<text class="color-g">徐璟璟儿</text>
+						<text class="margin-t10">最佳名字</text>
+					</view>
+				</view>
+				<view class="margin-r15 flex flex-column flex-align-end">
+					<text class="font30 color-r1">未领取</text>
+					<text class="font25 ">￥168.00 BIGN EEWREWR 法国充电吕</text>
+				</view>
+			</view> 
+		</view>
+		<view class="margin-t60 text-c color-r1">
+			<view class="padding-b15 padding-t15">{{item_apply.count_people}}人，提交了{{item_apply.list.length}}个名字</view>
+		</view>
+		<block wx:for="{{item_apply.list}}" wx:key="uneque" wx:for-index="ids" wx:for-item="item">
+			<view class="bg-w font30  padding-t30 padding-b40 margin-b30 color6">
+				<view class="head flex flex-align-center flex-space-between side30">
+					<view class="flex flex-align-center">
+						<image src="{{item.user_info.headurl}}"></image>
+						<text class="margin-l10 font22 color-g">{{item.user_info.name}} · {{item.cctime}}</text>
+					</view>
+					<view class="color-r1" wx:if="{{item.is_win}}">最佳</view>
+					<view class="color-r1" wx:elif="{{item.is_luck}}">入围</view>
+					<view class="color-r1" wx:else></view>
+				</view>
+				<view class="font25 margin-t30 margin-b25 side30">
+					{{item.answer}}
+				</view>  
+			</view> 
+		</block> 
+	</view>
+	<view class="side30  flex margin-b30">
+	   <button class="apply-btn1 bg-r1 color-w "   bindtap="goto_apply">参与起名</button>
+	   <button class="apply-btn1 bg-r1 color-w margin-l20"  open-type="share">邀请好友</button> 
+	</view> 
+</view>
+

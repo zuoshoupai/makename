@@ -1,0 +1,54 @@
+<!--pages/mall/bean.wxml--> 
+<view class="page">
+	<view class="margin-t30">
+		<view class="side55 bg-w flex flex-align-center flex-space-between padding-t20 padding-b20">
+			<view class="">
+				<view class="font20 color-g">
+					2018 02/18 13:23
+				</view>
+				<view class="font28 color6">
+					获得最佳取名
+				</view>
+			</view>
+			<view class="color-r1">+100</view>
+		</view>
+		<view class="l1"></view>
+		<view class="side55 bg-w flex flex-align-center flex-space-between padding-t20 padding-b20">
+			<view class="">
+				<view class="font20 color-g">
+					2018 02/18 13:23
+				</view>
+				<view class="font28 color6">
+					取名入围
+				</view>
+			</view>
+			<view class="color-r1">+10</view>
+		</view>
+		<view class="l1"></view>
+		<view class="side55 bg-w flex flex-align-center flex-space-between padding-t20 padding-b20">
+			<view class="">
+				<view class="font20 color-g">
+					2018 02/18 13:23
+				</view>
+				<view class="font28 color6">
+					兑换京东礼品卡
+				</view>
+			</view>
+			<view class="color-r1">-100</view>
+		</view>
+		<view class="l1"></view>
+		<view class="side55 bg-w flex flex-align-center flex-space-between padding-t20 padding-b20">
+			<view class="">
+				<view class="font20 color-g">
+					2018 02/18 13:23
+				</view>
+				<view class="font28 color6">
+					获得最佳取名
+				</view>
+			</view>
+			<view class="color-r1">+100</view>
+		</view>
+		<view class="l1"></view>
+	</view>
+
+</view>

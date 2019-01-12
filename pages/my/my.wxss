@@ -1,0 +1,8 @@
+/* pages/my/my.wxss */
+.advartor image{width:84rpx;height:84rpx;border-radius:100rpx;}
+.icon image{width:40rpx;height:40rpx;}
+.red-btn{border-radius:28rpx;
+padding:14rpx 25rpx;
+line-height:1;
+}
+.margin-t2{margin-top:2rpx;}

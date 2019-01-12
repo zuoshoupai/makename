@@ -1,0 +1,47 @@
+ 
+.list{
+    margin:20rpx 0;
+
+}
+.list .ask{
+    font-size:28rpx;
+color:#333;
+width:670rpx;
+margin:0 auto;
+background-color:#fff; 
+line-height:40rpx;
+padding:20rpx;
+display:flex;
+justify-content:space-between;
+
+
+}
+.list .answer{
+    padding:20rpx;
+background-color:#F8F8F8;
+width:670rpx;
+margin:0 auto;
+font-size:28rpx;
+color:#aaa;
+
+}
+.contact{
+    position:fixed;
+right:20rpx;
+bottom:200rpx;
+padding:20rpx;
+line-height:1;
+position:fixed;
+right:20rpx; 
+padding:20rpx;
+line-height:1;
+border-radius:60rpx;
+background-color:#fff;
+
+}
+.contact:after{
+    border: none;
+}
+.contact i{
+    font-size:65rpx;
+}

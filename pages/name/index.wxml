@@ -1,0 +1,21 @@
+<!--pages/name/index.wxml-->
+<view class="page">
+	<view class="htop flex flex-column flex-align-center bg-o padding-t20 padding-b20">
+		<view class="advartor">
+			<image src="../../images/head.png"/>
+		</view>
+		<text class="color-w">好名字</text>
+		<text class="color-r1 font50 bg-w side40 margin-t30 margin-b30">悬赏10元</text>
+		<text class="font60">征集宝宝名字</text>
+	</view>
+	<view class="padding-b20 padding-t20 side30">
+		<text>选定名字：</text><text>分得8元</text>
+		<text>参与奖励10人，</text><text>共2人</text>
+	</view>
+	<view class="padding-b20 padding-t20 side30">
+		<view>取名要求:</view>
+		<view>姓杜，母亲姓罗
+
+孩子大概 今年8月底9月初出生，请大家帮忙取个名字。名子需要包含X字，好记，谢谢大家。<text class="color-b">更多</text></view>
+	</view>
+</view>

@@ -1,0 +1,80 @@
+<!--pages/my/mygift.wxml-->
+<view class="page"> 
+	<view class="list bg-w side55 color-g font25 margin-t30">
+		<view class="padding-t25 padding-b25 flex flex-space-between flex-align-center">
+			<text class="color0 font28">中奖奖品</text>
+			<text class="color-r1">已发货</text>
+		</view>
+		<view class="l1"></view>
+		<view class="good padding-t25 padding-b25 flex flex-align-center">
+			<image src="../../images/gift1.png"/> 
+			<view class="margin-l25 flex flex-column flex-center">
+				<view class="color6">BIG BANGS SDFDSF</view>
+				<view class="">规格:无</view>
+			</view>
+		</view>
+		<view class="l1"></view>
+		<view class="padding-t10 padding-b10 flex flex-space-between flex-align-center">
+			<view>
+				<text>数量:0</text>
+				<text class="margin-l40">消耗金豆:0</text>
+			</view>
+			<view class="flex font28">
+				<button class="normal-btn color-w bg-r1">奖品来源</button>
+				<button class="normal-btn color-w bg-r1 margin-l30">查看物流</button>
+			</view>
+		</view>
+	
+	</view>
+	<view class="list bg-w side55 color-g font25 margin-t30">
+		<view class="padding-t25 padding-b25 flex flex-space-between flex-align-center">
+			<text class="color0 font28">中奖奖品</text>
+			<text class="color-r1">已发货</text>
+		</view>
+		<view class="l1"></view>
+		<view class="good padding-t25 padding-b25 flex flex-align-center">
+			<image src="../../images/gift1.png"/> 
+			<view class="margin-l25 flex flex-column flex-center">
+				<view class="color6">BIG BANGS SDFDSF</view>
+				<view class="">规格:无</view>
+			</view>
+		</view>
+		<view class="l1"></view>
+		<view class="padding-t10 padding-b10 flex flex-space-between flex-align-center">
+			<view>
+				<text>数量:0</text>
+				<text class="margin-l40">消耗金豆:0</text>
+			</view>
+			<view class="flex font28">
+				<button class="normal-btn color-w bg-r1">奖品来源</button>
+				<button class="normal-btn color-w bg-r1 margin-l30">查看物流</button>
+			</view>
+		</view>
+	
+	</view>
+	<view class="list bg-w side55 color-g font25 margin-t30">
+		<view class="padding-t25 padding-b25 flex flex-space-between flex-align-center">
+			<text class="color0 font28">兑换礼品</text>
+			<text class="color-r1">已发货</text>
+		</view>
+		<view class="l1"></view>
+		<view class="good padding-t25 padding-b25 flex flex-align-center">
+			<image src="../../images/gift1.png"/> 
+			<view class="margin-l25 flex flex-column flex-center">
+				<view class="color6">BIG BANGS SDFDSF</view>
+				<view class="">规格:无</view>
+			</view>
+		</view>
+		<view class="l1"></view>
+		<view class="padding-t10 padding-b10 flex flex-space-between flex-align-center">
+			<view>
+				<text>数量:0</text>
+				<text class="margin-l40">消耗金豆:0</text>
+			</view>
+			<view class="flex font28">
+				<button class="normal-btn color-w bg-g1">暂未发货</button> 
+			</view>
+		</view>
+	
+	</view>
+</view>

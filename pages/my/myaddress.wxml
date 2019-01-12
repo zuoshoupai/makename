@@ -1,0 +1,29 @@
+<!--pages/my/my.wxml-->
+<view class="page"> 
+	<block wx:for="{{data}}" wx:key="uneque" wx:for-index="ids" wx:for-item="item">
+		<view class="flex   flex-align-center flex-space-between bg-w side55 padding-b25 padding-t25 color-g font25">
+			<view class="icon flex   flex-align-center  ">
+				
+				< image src="../../images/dagou.png" wx:if="{{(ids==0 && id_now==0) || (item.id==id_now)}}"/>
+				< image src="" wx:else/>
+				<view class="margin-l30">
+					<view class="tit  font28 color6">{{item.name}}</view>
+					<view class="">{{item.province}}{{item.city}}{{item.county}}{{item.content}}</view>
+				</view>
+			</view>
+			<navigator url="../my/address?aid={{item.id}}"   >
+				<view>| 编辑</view>
+			</navigator>
+		</view>
+	</block>
+	 
+	<navigator url="../my/address"   >
+	<view class="flex  margin-t2 flex-align-center flex-space-between bg-w side55 padding-b25 padding-t25 color-g font25">
+		<view class="icon flex   flex-align-center">
+			<image src="../../images/add2.png"/>
+			<view class=" font28 color6 margin-l25">新增地址</view> 
+		</view> 
+	</view>
+	</navigator>
+	 
+</view>

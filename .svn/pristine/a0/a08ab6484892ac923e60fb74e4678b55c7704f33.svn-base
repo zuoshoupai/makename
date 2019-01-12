@@ -1,0 +1,4 @@
+/* pages/mall/index.wxss */
+.head image{width:750rpx;height:296rpx;}
+.bean image{width:44rpx;height:44rpx;}
+.li image{width:298rpx;height:219rpx;}

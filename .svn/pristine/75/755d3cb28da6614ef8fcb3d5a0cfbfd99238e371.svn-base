@@ -1,0 +1,48 @@
+<!--pages/mall/index.wxml-->
+<view class="page"> 
+	<view class="head">
+		<image src="../../images/mall.jpg"/>
+	</view>
+	<view class="side30 margin-t30">
+		<view class="bg-w side25 padding-t15 padding-b15 flex flex-align-center flex-space-between">
+			<view class="flex flex-align-center bean">
+				<image src="../../images/bean.png"/>
+				<view class="margin-l20">您有<text class="color-r1">1000</text>个金豆</view>
+			</view>
+			<view><navigator url="../mall/bean"  ><button class="normal-btn bg-r1 color-w">金豆记录</button></navigator></view>
+		</view>
+	</view>
+	<view class="side30  margin-t30 flex flex-space-between flex-wrap">
+		<view class="bg-w list side18 padding-b18 padding-t18 margin-b30">
+			<view class="li">
+				<image src="../../images/gift1.png"/>
+			</view>
+			<view class="font26 color-g">BIG BANGS 法槈槈槈</view>
+			<view class="bean flex flex-align-center">
+				<image src="../../images/bean.png"/>
+				<text class="color-r1 padding-l10">100</text>
+			</view>
+		</view>
+		<view class="bg-w list side18 padding-b18 padding-t18 margin-b30">
+			<view class="li">
+				<image src="../../images/gift1.png"/>
+			</view>
+			<view class="font26 color-g">BIG BANGS 法槈槈槈</view>
+			<view class="bean flex flex-align-center">
+				<image src="../../images/bean.png"/>
+				<text class="color-r1 padding-l10">100</text>
+			</view>
+		</view>
+		<view class="bg-w list side18 padding-b18 padding-t18 margin-b30">
+			<view class="li">
+				<image src="../../images/gift1.png"/>
+			</view>
+			<view class="font26 color-g">BIG BANGS 法槈槈槈</view>
+			<view class="bean flex flex-align-center">
+				<image src="../../images/bean.png"/>
+				<text class="color-r1 padding-l10">100</text>
+			</view>
+		</view>
+	
+	</view>
+</view> 

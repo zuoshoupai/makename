@@ -1,0 +1,4 @@
+/* pages/name/apply.wxss */
+.bottom-btn{position:fixed;bottom:40rpx;width:690rpx;}
+.bottom-btn button{width:50%;border:unset;border-radius:0;}
+.bottom-btn .btn{}

@@ -1,0 +1,3 @@
+/* pages/issue/templa.wxss */
+.icon-list .list image{width:72rpx;height:72rpx;}
+.good-list .list image{width:300rpx;height:220rpx;}

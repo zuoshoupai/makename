@@ -1,0 +1,15 @@
+/* pages/issue/add.wxss */
+.advartor image{width:140rpx;height:140rpx;}
+.cash-list{}
+.cash-list view{border-left: 1px solid #ababab;border-top:1px solid #ababab;border-bottom:1px solid #ababab;padding:5px 15px;
+}
+.cash-list view:last-child{border-right: 1px solid #ababab;}
+.height258{height:2.58em;}
+.select-tem{position:absolute;
+top:20rpx;
+right:20rpx;
+color:#333;
+border:1rpx solid #999;
+padding:4rpx 10rpx;
+background-color:#fff;
+}

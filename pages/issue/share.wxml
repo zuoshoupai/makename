@@ -1,0 +1,61 @@
+<!--pages/issue/share.wxml--> 
+<view class="page"> 
+	<view class="page__bd">
+		<view class="text-c color-r1 font30 padding-b10 padding-t10">剩时：{{item_info.ddtime}}</view>
+		<view class="bg-w font30 side30 padding-t30 padding-b20">
+			<view class="head flex flex-align-center">
+				<image src="{{item_info.user_info.headurl}}"></image>
+				<text class="margin-l10 font22 color-g">{{item_info.user_info.name}} · 6天前</text>
+			</view>
+			<view class="font25 margin-t30 margin-b25">
+				{{item_info.title}}
+			</view>
+			<view class="color-g font22">
+				{{item_info.require}}
+			</view>
+			<view class="l1 margin-t35 margin-b15"></view>
+			<view class="h3 item-info flex flex-align-center">
+				<image src="../../images/eye.png"></image><text class="margin-l5 margin-r25">{{item_info.read_count}}</text>
+				<image src="../../images/peo.png"></image><text class="margin-l5 margin-r25">{{item_info.apply_count}}</text>
+			</view>
+		</view>
+		<view class="bg-w font30 side30 padding-t30 padding-b30 margin-t30">
+			<view class="font30">悬赏礼品</view>
+			<view class="l1 margin-t10"></view>
+			<view class="flex flex-align-center flex-space-between padding-t30">
+				<view class="h2 flex flex-align-center">
+					<image src="../../images/gift1.png"></image>
+					<text class="margin-l30 margin-r25">{{item_info.good_info.name}}</text>
+				</view>
+				<text class="margin-r15 color-r1">￥{{item_info.good_info.price}}</text>
+			</view>
+		</view>
+		<view class="bg-w font30 side30 padding-t30 padding-b30 margin-t30">
+			<view class="font30 flex flex-align-center flex-space-between">
+				<text>悬赏分配</text>
+				<text class="font25 color-r1">悬赏分配规则></text>
+			</view>
+			<view class="l1 margin-t10"></view>
+			<view class="flex flex-align-center flex-space-between padding-t30">
+				<view class="h2 flex flex-align-center">
+					<image src="../../images/gift1.png"></image>
+					<text class="margin-l30 margin-r25">最佳名字</text>
+				</view>
+				<text class="margin-r15 color-r1">礼品价值*80%</text>
+			</view>
+			<view class="l1 margin-t35"></view>
+			<view class="flex flex-align-center flex-space-between padding-t30">
+				<view class="h2 flex flex-align-center">
+					<image src="../../images/gift1.png"></image>
+					<text class="margin-l30 margin-r25">入围名字</text>
+				</view>
+				<text class="margin-r15 color-r1">平均礼品价值*20%</text>
+			</view>
+		</view>
+		<view class="height280"></view>
+		<button class="bg-r1 color-w apply-btn bottom130"  open-type="share"  >转发给朋友</button>
+		<button class="bg-r1 color-w apply-btn"  bindtap="goto_poster" >生成朋友圈分享图</button>
+		
+	</view>
+</view>
+

@@ -1,0 +1,36 @@
+<!--pages/name/apply.wxml--> 
+<view class="page"> 
+	<view class="page__bd">
+		<view class="list weui-cells">
+			<view class="weui-cell weui-cell_input"> 
+			  <view class="weui-cell__bd">
+				<input class="weui-input" placeholder="名字" />   
+			  </view>
+		    </view>
+			<view class="weui-cell"> 
+			  <view class="weui-cell__bd">
+				<textarea class="weui-textarea" placeholder="说明" ></textarea>  
+			  </view>
+		    </view> 
+			 
+		</view>
+		<text class="color-b padding-l40 padding-t20">再起一个</text>
+	</view>
+	<view class="page__bd page__bd_spacing">
+		<view class="rule margin-t40">
+			<view class="title text-c margin-b20">起名规则</view>
+			<view class="con">
+				<view>1.请按要求取名，不得发布违法信息；</view>			<view>2.最佳名字将在截止时间后24小时公布；</view>
+				<view>3.如果24小时内不选择最佳名字，赏金将由参与者平分；</view>
+				<view>4.如字出现重复或疑似现象，以最先提交者为准。</view>
+			</view> 
+		</view>
+	</view>
+	<view class="h120"></view> 
+	<view class="page__bd page__bd_spacing">
+	    <view class="bottom-btn flex">
+		   <button class=""  >要求</button> 
+		   <button class="color-w bg-y" bindtap="goto_index">提交</button> 
+	   </view>
+	</view>  
+</view>

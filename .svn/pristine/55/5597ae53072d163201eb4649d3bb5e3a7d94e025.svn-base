@@ -1,0 +1,2 @@
+/* pages/my/my.wxss */ 
+.icon image{width:33rpx;height:33rpx;}  

@@ -1,0 +1,2 @@
+/* pages/my/mygift.wxss */
+.good image{width:106rpx;height:106rpx;}

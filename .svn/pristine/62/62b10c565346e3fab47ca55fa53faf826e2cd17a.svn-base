@@ -1,0 +1,40 @@
+<!--pages/my/my.wxml-->
+<view class="page">
+	<view class="head bg-r flex  flex-column flex-align-center padding-t40 padding-b40">
+		<view class="advartor">
+			<image src="{{member_info.headurl}}"/>
+		</view>
+		<text>{{member_info.name}}</text>
+	</view>
+	<view class="mid flex flex-space-around margin-t20 bg-w side30 padding-t30 padding-b30 font28">
+		<view class="flex  flex-column flex-align-center">
+			<text class="font50">{{member_info.total_issue}}</text>
+			<text class="margin-t40">发布起名</text>
+		</view>
+		<view class="flex  flex-column flex-align-center">
+			<text class="font50">{{member_info.total_apply}}</text>
+			<text class="margin-t40">参与起名</text>
+		</view>
+		<view class="flex  flex-column flex-align-center">
+			<text class="font50">{{member_info.total_win}}</text>
+			<text class="margin-t40">累计中标</text>
+		</view>
+	</view>
+	<view class="margin-t20 bg-w side30 padding-t30 padding-b30 font-size28 color3">
+		<view class="flex flex-space-between flex-align-center">
+			<view>
+			<i class="iconfont icon-tuiguangzhuanqian color-r1 font50"></i>
+			<text class="padding-l20">帐户余额</text>
+			</view>
+			<text>{{member_info.total_cash}}</text>
+		</view>
+		<view class="margin-t50">
+		<navigator url="../help/index" open-type="navigate">
+			<i class="iconfont icon-wenhao color-r1 font50"></i><text class="padding-l20">常见问题</text> 
+		</navigator>
+		</view>
+		<view class="margin-t50">
+			<i class="iconfont icon-kefu color-r1 font50"></i><text class="padding-l20">联系客服</text> 
+		</view>
+	</view>
+</view>

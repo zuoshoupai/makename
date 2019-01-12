@@ -1,0 +1,56 @@
+<!--pages/issue/add.wxml-->
+<view class="page"> 
+<view class="page__bd">
+    <view class="bg-o padding-t55 padding-b10 position-r">
+        <view class="margin-l65 font60">美好的未来</view>
+        <view class="margin-l65 font60">从取一个好名字开始</view>
+        <view class="flex flex-space-around font30 margin-t25">
+           <view><icon size='20' type='success'></icon> 发布取名需求</view> 
+           <view><icon size='20' type='success'></icon> 邀请万能的群友</view>
+           <view><icon size='20' type='success'></icon> 选择好名字</view>
+        </view>
+        <view class="select-tem" bindtap='goto_tem'>选取取名模板</view>
+    </view>
+    <view class="margin-t25"></view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+              <view class="weui-label">设置赏金</view>
+          </view>
+          <view class="weui-cell__bd height258">
+              <input class="weui-input" placeholder="请输入赏金" wx:if="{{false}}"/>
+              <view class="flex cash-list margin-t10">
+                <view>0</view>
+                <view>10</view>
+                <view>20</view>
+                <view>50</view>
+                <view>...</view>
+              </view>
+          </view>
+      </view>
+       
+      <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+              <view class="weui-label">截止时间</view>
+          </view>
+          <view class="weui-cell__bd">
+              <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+                  <view class="weui-input">{{date}}</view>
+              </picker>
+          </view>
+      </view>
+       <view class="weui-cell"> 
+          <view class="weui-cell__bd ">
+              <view class="font-17 color-g">内容发布细则和责任声明</view>
+             
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </view>
+    </view>
+    
+</view><!--主体-->
+<view class="h120"></view> 
+<view class="page__bd page__bd_spacing">
+   <button class="weui-btn apply-btn" type="warn">请人帮忙</button>
+</view>  
+</view>

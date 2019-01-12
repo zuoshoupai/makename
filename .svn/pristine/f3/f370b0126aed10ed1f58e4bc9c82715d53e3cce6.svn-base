@@ -1,0 +1,16 @@
+/* pages/issue/add.wxss */
+.cash-list{}
+.cash-list view{border-left: 1px solid #ababab;border-top:1px solid #ababab;border-bottom:1px solid #ababab;padding:5px 15px;
+}
+.cash-list view:last-child{border-right: 1px solid #ababab;}
+.height258{height:2.58em;}
+.select-tem{position:absolute;
+top:20rpx;
+right:20rpx;
+color:#999; 
+padding:4rpx 10rpx;
+background-color:#fff;
+z-index:999;
+}
+.c2 image{width:60rpx;height:60rpx;}
+.z-input{outline:0;border:0;}

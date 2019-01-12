@@ -1,0 +1,80 @@
+/* pages/withdraw/withdraw.wxss */ 
+.head {
+    width: 750rpx; 
+    background-color: #fff;
+    color: #666;
+    font-size: 28rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.normal1 {
+    margin: 10rpx 0 30rpx 0;
+}
+
+.remain {
+    font-size: 80rpx;
+    color: #333;
+}
+
+input {
+    width: 480rpx;
+    height: 100rpx;
+    font-size: 80rpx;
+    color: #333;
+    text-align: center;
+    background-color: #f6f7f8;
+    border-radius: 50rpx;
+}
+
+.button-withdraw {
+    background-color: #67dec8;
+    color: #fff;
+    width: 300rpx;
+    height: 80rpx;
+    font-size: 36rpx;
+    text-align: center;
+    line-height: 72rpx;
+    border-radius: 70rpx;
+    margin: 10rpx 0;
+    border: none;
+}
+
+.history {
+    width: 710rpx;
+    margin: 20rpx auto;
+    font-size: 28rpx;
+    color: #333;
+}
+
+.list {
+    margin-bottom: 20rpx;
+    background-color: #fff;
+    padding: 20rpx;
+}
+
+.list text:last-child {
+    display: block;
+    font-size: 24rpx;
+    color: #999;
+    margin-top: 20rpx;
+}
+.head-bottom{
+    margin:30rpx 0 10rpx 0;
+    display: flex;
+    align-items: center;
+}
+.head-bottom .iconfont{
+    font-size: 23px;
+}
+.contact{
+    background-color:#fff;
+border:none;
+font-size:28rpx;
+padding:0;
+color:#666;
+}
+.contact:after{
+    border: none;
+}
